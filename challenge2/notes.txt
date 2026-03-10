@@ -1,0 +1,36 @@
+Créer un formulaire avec : 
+• Prix du produit (text) 
+• Quantité (text) 
+• Code promo (text) 
+• Mode de livraison (select avec 2 options : standard/express) 
+• Bouton « Calculer »
+
+
+traitement 
+Le champ ‘Prix’ doit accepter les valeurs int ou float 
+• Le champ ‘Quantité’ doit accepter les valeurs int 
+• Refuser une valeur négative <=0 pour le champ ‘Prix’ 
+• Refuser une valeur négative <=0 pour la champ ‘Quantité’
+
+
+les calcules 
+ Quantité ≥ 5 → -10% 
+• Total ≥ 1000 dh → -15%  => prix * Quantité  
+• Code promo "DEV10" → -10% 
+• Code promo "SUPER20" → -20%
+si quandition et vrai calcule reduction 
+
+apres total 
+
+    standard 0 dh 
+    • express 50 dh 
+    Si total après réduction ≥ 1500 dh → livraison gratuite
+
+Affichage finale 
+
+Total initial    / prixreduction 
+• Pourcentage total de réduction appliqué 
+• Montant de la réduction 
+• Frais de livraison 
+• Total final 
+
